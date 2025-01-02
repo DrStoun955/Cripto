@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* z-index: 3; */
+}
+
+.bgImg {
+  background-image: url("../src/assets/bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 821px;
+  position: relative;
+}
+
+.container {
+  overflow: hidden;
+  /* max-width: 1640px; */
+}
+
+/* @media screen {
+  .container {
+    max-width: 1640px;
+  }
+  .Trade .circle {
+    right: 100px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 1640px) {
+  .container {
+    max-width: 1640px;
+  }
+  .Trade .circle {
+    width: 440px;
+    right: auto;
+  }
+} */

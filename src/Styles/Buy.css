@@ -1,0 +1,148 @@
+.Buy {
+    text-align: center;
+    padding: 130px 140px;
+    position: relative;
+}
+
+.Buy .bg-img3{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    z-index: -1;
+}
+
+.Buy .group4 {
+    position: absolute;
+    z-index: -1;
+    bottom: 60px;
+    right: 50px;
+    background: rgb(111,44,208);
+    background: linear-gradient(0deg,  rgba(44, 63, 188, 0.789) 20%, rgba(86, 51, 201, 0.76) 100%); 
+    height: 545px;
+    width: 492px;
+    border-radius: 50%;
+    filter: blur(200px);
+}
+
+.Buy h2 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.Buy p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #898CA9;
+}
+
+.Buy a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #B982FF;
+    text-decoration: none;
+}
+
+.Buy .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 140px; */
+    /* margin-top: 140px; */
+    text-align: left;
+    gap: 20px;
+    padding-top: 55px;
+    padding-right: 20px;
+    /* padding: 140px 130px 140px 150px; */
+}
+
+
+
+.Buy .box1 .crypto-container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 46px auto 120px auto;
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.Buy .box1 .crypto-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2a2a40;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.Buy .box1 .crypto-card:last-child {
+    border-bottom: none;
+}
+
+.Buy .box1 .crypto-info {
+    flex: 2;
+    /* Nom va belgi uchun joy */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 330px;
+    margin-right: 140px;
+}
+
+.Buy .box1 .crypto-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Buy .box1 .crypto-symbol {
+    font-size: 14px;
+    color: #a4a4c0;
+    width: 91px;
+    text-align: left;
+}
+
+.Buy .box1 .crypto-price {
+    flex: 1;
+    display: flex;
+    /* Narx uchun joy */
+    text-align: right;
+    max-width: 650px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Buy .box1 .crypto-price span {
+    display: inline-block;
+}
+
+.Buy .box1 .crypto-price .crypto-price-usd {
+    width: 91px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Buy .box1 .crypto-change {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.Buy .box1 .positive {
+    color: #4caf50;
+}
+
+.Buy .box1 .negative {
+    color: #f44336;
+}
+
+.Buy .box1 .crypto-price h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+

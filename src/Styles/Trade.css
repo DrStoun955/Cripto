@@ -1,0 +1,102 @@
+.Trade {
+    position: relative;
+    /* margin-top: 280px; */
+}
+
+
+
+.Trade .Group1 {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    top: -750px;
+    right: -190px;
+    z-index: -1;
+    filter: blur(50px);
+    background: radial-gradient(circle, rgb(213, 95, 252) -50%, rgba(0, 0, 0, 0) 70%);
+}
+
+.Trade .Group2 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: -800px;
+    right: -90px;
+    z-index: -1;
+    filter: blur(50px);
+
+    background: rgb(24, 75, 255);
+    background: radial-gradient(circle, rgba(78, 116, 255, 0.598) -50%, rgba(0, 0, 0, 0) 70%);
+}
+
+.Trade .Group3 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: -350px;
+    right: -50px;
+    z-index: -3;
+    filter: blur(50px);
+    background: rgb(24, 75, 255);
+    background: radial-gradient(circle, rgba(24, 74, 255, 0.939) -50%, rgba(255, 255, 255, 0) 70%);
+}
+
+.Trade .star1 {
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+}
+
+.Trade .star2 {
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+}
+
+.Trade .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 130px;
+    gap: 20px;
+}
+
+.Trade .cards .card {
+    text-align: center;
+    background-color: #1A1B23;
+    border-radius: 10px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 380px;
+    width: 380px;
+}
+
+.Trade .cards .card .head {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 16px;
+}
+
+.Trade .cards .card h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.Trade .cards .card p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #898CA9;
+}
+
+.Trade .cards .card a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #B982FF;
+    text-decoration: none;
+}
+

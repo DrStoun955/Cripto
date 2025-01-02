@@ -1,0 +1,88 @@
+.Invests {
+    margin-top: 140px;
+    text-align: center;
+    position: relative;
+}
+
+.Invests .bgImg2{
+    position: absolute;
+    right: 0;
+    top: -220px;
+    z-index: -1;
+}
+
+.Invests .star3{
+    position: absolute;
+    right: 176px;
+    top: 200px;
+    z-index: -1;
+}
+
+.Invests .bgGradientImg{
+    position: absolute;
+    left: 10px;
+    top: 350px;
+    z-index: -1;
+    border-radius: 50%;
+    background: rgb(130,57,44);
+    background: linear-gradient(183deg, rgba(130, 57, 44, 0.751) -90%, rgba(208, 162, 44, 0.791) 100%); 
+    filter: blur(200px);
+
+    height: 400px;
+    width: 400px;
+}
+
+.Invests .bgGradientImg2{
+    position: absolute;
+    left: 20px;
+    top: 600px;
+    z-index: -1;
+    border-radius: 50%;
+    background: rgb(130,57,44);
+    background: linear-gradient(0deg, rgba(130, 57, 44, 0.751) 40%, rgba(208, 162, 44, 0.791) 90%); 
+    filter: blur(200px);
+    
+    height: 300px;
+    width: 300px;
+}
+
+.Invests .group2{
+    position: absolute;
+    right: -100px;
+    top: 800px;
+    z-index: -1;
+    border-radius: 50%;
+    height: 500px;
+    width: 400px;
+    filter: blur(200px);
+    background: rgb(44,73,130);
+    background: linear-gradient(183deg, rgba(44, 73, 130, 0.797) 0%, rgba(44, 208, 148, 0.751) 100%); 
+}
+
+.Invests h2 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.Invests p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #898CA9;
+}
+
+
+.Invests .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 140px; */
+    /* margin-top: 140px; */
+    text-align: left;
+    gap: 20px;
+    padding: 140px 150px 140px 130px;
+}
+
+
